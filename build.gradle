@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"test" {
+		"worldpresets" {
 			sourceSet sourceSets.main
 		}
 	}
