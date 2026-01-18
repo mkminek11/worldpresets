@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "worldpresets-fabric",
+	"version": "1.0.0",
+	"name": "World Presets",
+	"description": "A Minecraft mod that adds the ability to create and use custom world presets.",
+	"authors": ["pythoncraft"],
+
+	"contact": {
+		"homepage": "https://github.com/mkminek11/worldpresets",
+		"sources": "https://github.com/mkminek11/worldpresets"
+	},
+
+	"license": "CC0-1.0",
+	"icon": "assets/worldpresets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.pythoncraft.worldpresets.WorldPresets"
+		]
+	},
+
+	"mixins": [
+		"worldpresets.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "1.21.x",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
