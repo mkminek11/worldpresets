@@ -2,13 +2,10 @@
 	"required": true,
 	"package": "com.pythoncraft.worldpresets.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
+	"client": [
 		"CreateWorldScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
 	}
 }
